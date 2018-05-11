@@ -18,7 +18,7 @@ email: nathan.saipaia@warriorlife.net
 description: >- # ...
  This will be cool
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "nathan.saipaia@warriorlife.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://supremekingnate.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: SupremeKingNate
 
 disqus:
