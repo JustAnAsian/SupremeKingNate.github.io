@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Boondocks</title>
+<script type="text/javascript">
+
+function tipCalc(bill,tipPercentage) {
+	var tip= bill*(tipPercentage/100);
+	document.write("You should tip $"+ tip + "." + "<br>");
+}
+</script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+var x = prompt("What was your bill?");
+var y = prompt("What percentage of your bill would you like to tip?");
+tipCalc(x,y);
+</script>
+</body>
+</html>

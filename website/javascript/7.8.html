@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var hour = prompt("What time is it in military time?");
+
+if(hour >= 6 && hour <=10) {
+	alert("You can find a continental breakfast in the lobby");
+}
+
+else if(hour >= 11 && hour <= 13){
+	alert("The restaurant is open");
+
+var reservation=confirm ("Would you like to make a reservation");
+var array=[
+	"12",
+	"12:30",
+	"13",
+	"13:30",
+
+	]
+	var randomNumber = Math.floor(Math.random()*array.length);
+	document.write("Resevation",array[randomNumber])
+
+}
+else {
+	alert("You can order room service or visit the restaurant");
+}
+</script>
+
+</body>
+</html>
