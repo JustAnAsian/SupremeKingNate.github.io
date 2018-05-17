@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Thank You!"
+date:   2018-05-17 13:56:49 -0700
+categories: uncategorized
+author: Nathan Kuan
+---
+
+Thank you for having the same name as me and being awesome. Great working with you!
